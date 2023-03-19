@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text&family=Ubuntu:ital,wght@0,400;1,300&family=Varela+Round&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1rem;
+  font-weight: 300;
+  color: white;
+  font-family: sans-serif;
+}
+body {
+  background-color: antiquewhite;
+}
+/* nav bar styling */
+
+.image {
+  height: 50px;
+  width: 50px;
+  padding: 10px 20px 10px 0;
+}
+#navigation {
+  position: relative;
+  background-color: black;
+  margin: 0px 0px 34px 0px;
+}
+.nav-ul {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.nav-ul > li {
+  list-style: none;
+  padding: 10px 20px;
+}
+/*
+
+*/
+/* container section styling */
+/* 
+
+*/
+#container {
+  /* border: 2px solid red; */
+  width: 80vw;
+  display: block;
+  margin: auto;
+  height: 74vh;
+  background: url(./wp4621973-bmw-x6-vantablack-wallpapers.jpg) no-repeat center
+    center/cover;
+}
+.songimage {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+.songlist {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  column-gap: 5px;
+}
+.songitems {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  background-color: rgb(228, 219, 219);
+  border-radius: 10px;
+  padding: 5px;
+  max-width: 50%;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.songitems span {
+  color: black;
+}
+.songname {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.playcontrol {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+/* 
+
+*/
+/* controls section styling */
+/* 
+
+*/
+#controls {
+  /* border: 2px solid red; */
+  height: 73px;
+  background-color: black;
+  margin-top: 30px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+#runner {
+  width: 80vw;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.ic {
+  cursor: pointer;
+}
+.songimg {
+  width: 30px;
+  height: 20px;
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+.songinfo {
+  position: absolute;
+  left: 10vw;
+}
